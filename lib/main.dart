@@ -1,15 +1,18 @@
-import 'package:countdown/homepage.dart';
+import 'package:countdown/screens/add_event_screen.dart';
+import 'package:countdown/screens/events_screen.dart';
 import 'package:flutter/material.dart';
 
-void main() => runApp(App());
+void main() => runApp(MyApp());
 
-class App extends StatelessWidget {
-  const App({Key key}) : super(key: key);
-
+class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Homepage(),
+      routes: {
+        EventsScreen.id: (context) => EventsScreen(),
+        AddEventScreen.id: (context) => AddEventScreen()
+      },
+      initialRoute: EventsScreen.id,
       debugShowCheckedModeBanner: false,
     );
   }

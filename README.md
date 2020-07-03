@@ -14,3 +14,7 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+Used Colors
+#fff6e9 • #ffefd7 • #fffef9 • #e3f0ff • #d2e7ff
+[Color Pallete](https://digitalsynopsis.com/wp-content/uploads/2017/06/beautiful-color-palettes-combinations-schemes-never-dreamed-of-this.png)
